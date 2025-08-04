@@ -1,7 +1,7 @@
-import 'package:belajar/firebase_auth_service.dart';
+import 'package:belajar/auth/firebase_auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
+import 'service/firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
